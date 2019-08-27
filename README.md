@@ -29,7 +29,7 @@ In this way, MVC architectures are highly welcomed.
 for Python.
 * **The procedures followed to contribute in the git repository:** [this link](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/)
 perfectly describes what would be a clean contribution to an external repository. The contributing branch
-should be **branched from develop**.
+should be **branched from develop**. Follow a [git-flow](https://datasift.github.io/gitflow/IntroducingGitFlow.html).
 ### Basic functionalities
 1. A simple window like the following should be created at startup:
 
