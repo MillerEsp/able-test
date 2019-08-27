@@ -29,6 +29,7 @@ code documentation, git flow, ...
 - Top bar icon of popup message ABLE icon
 - Popup message icon (information), replaced by exit button
 - Change cursor to pointing hand when hovering button
+- Dummy edit
 
 # Requirements
 - It should run both in Windows and Linux
