@@ -102,3 +102,29 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Imported from other ABLE projects
+# editors
+**/*.swp
+
+# python files
+**/*.pyc
+**/__pycache__
+build/
+dist/
+venv/
+src/
+target/
+*.egg-info
+
+# qt
+*.pro.user
+
+.idea/*
+
+.idea/*.xml
+.idea/*.iml
+.idea/*.name
+
+
+*.lock
