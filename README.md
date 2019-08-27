@@ -33,16 +33,35 @@ should be **branched from develop**.
 ### Basic functionalities
 1. A simple window like the following should be created at startup:
 
-![Alt text](/media/basic_layout.PNG "Basic Layout")
-- Background in color #2a2a2a (RGB: 42, 42, 42). Button color #535353 (RGB: 83, 83, 83)
-- Button should be centered in window
-- Button size 100x100. Text in white, font size 16 px, bold.
-- Main Window size at creation: 200x200. Mimimum size possible: 200x200
-- When button is pressed, popup message should be shown as image. The same popup should appear if trying to close application from top bar cross button. Default answer when enter is pressed should be cancel.
+   ![Alt text](/media/basic_layout.PNG "Basic Layout")
+   * Background color: #2a2a2a (RGB: 42, 42, 42)
+   * Button background color: #535353 (RGB: 83, 83, 83)
+   * Window size at creation: 300x300.
+   * Window minimum size restricted to 200x200. No restriction on maximum size. It should be resizable.
+   * Button size 100x100.
+   * Button text: white, bold and size 16 px.
+   * Button should always be centered on window, regardless of how the user resizes or moves the window
+   on the screen.
+2. When the button is pressed, a popup message like the following should appear:
+
+   ![Alt text](/media/popup_basic.PNG "Basic popup")
+   * If right after showing the popup message, the user hits Enter, the popup message should just hide and nothing else should happen.
+   * If the user clicks anything but the Yes button, the popup message should just hide and leave the main window visible.
+   * If, on the other hand, the user presses Yes, then the app should close immediately.
+3. The same popup message should appear when trying to close the app in any other way: Windows close button, Alt+F4, ...
 #### Extra features
-- Show ABLE icon in both the top bar and the task bar
-- Replace the button by a exit button6 and make it responsive to hover and press.
-- Button should be recentered every time the window resizes.
-- Top bar icon of popup message ABLE icon
-- Popup message icon (information), replaced by exit button
+- Show ABLE logo in both the top bar and the task bar of the main window. The logo can be found in the *media* folder.
+
+   ![Alt text](/media/able_logos_top_task.PNG "ABLE logos")
+- Replace the button by a exit button and make it responsive to hover and press. All necessary icons are in the *media* folder.
+
+   ![Alt text](/media/custom_button.gif "Custom button")
+- Show ABLE logo in the top bar of the popup message.
+
+   ![Alt text](/media/popup_able_logo.PNG "ABLE logo in popup bar")
+- Replace information icon by the exit icon.
+
+   ![Alt text](/media/popup_exit_icon.PNG "Exit icon in popup")
 - Change cursor to pointing hand when hovering button
+
+   ![Alt text](/media/custom_button.gif "Custom button")
