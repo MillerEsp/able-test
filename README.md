@@ -6,7 +6,7 @@ aspects with work being currently done in the ABLE desktop application. Apart fr
 this exercise will be evaluated from other perspectives such as code cleanliness, code structure, 
 code documentation, git flow, ...
 ### The problem
-Using PyQt5, the user should create a simple window with a pushbutton in the middle.
+Using PyQt5, the candidate should create a simple window with a pushbutton in the middle.
 When this pushbutton is pressed, a popup window should open prompting the user on whether they want
 to close the application or not. The same popup window should open when the Windows close button or 
 Alt+F4 are pressed. These are the basic functionalities the app should have. If the candidate feels
@@ -45,6 +45,8 @@ should be **branched from develop**.
 2. When the button is pressed, a popup message like the following should appear:
 
    ![Alt text](/media/popup_basic.PNG "Basic popup")
+   * Popup background color: #2a2a2a (RGB: 42, 42, 42)
+   * Buttons background color: #535353 (RGB: 83, 83, 83)
    * If right after showing the popup message, the user hits Enter, the popup message should just hide and nothing else should happen.
    * If the user clicks anything but the Yes button, the popup message should just hide and leave the main window visible.
    * If, on the other hand, the user presses Yes, then the app should close immediately.
