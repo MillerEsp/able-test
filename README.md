@@ -6,4 +6,4 @@ aspects with work being currently done in the ABLE desktop application. Apart fr
 this exercise will be evaluated from other perspectives such as code cleanliness, code structure, 
 code documentation, git flow, ...
 ### Instructions
-1. 
+1. Clone the repository to your computer and branch out from develop to start coding your solution.
